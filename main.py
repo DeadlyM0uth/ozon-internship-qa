@@ -35,5 +35,6 @@ def get_tallest_hero(gender, has_work):
     return tallest_hero
 
 
-hero = get_tallest_hero("Male", True)
-print(hero["name"])
+if __name__ == "__main__":
+    hero = get_tallest_hero("Male", True)
+    print(hero["name"])
